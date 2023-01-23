@@ -18,15 +18,15 @@ body,p,h1,h2,h3,h4,h5,h6,span,div{
     
 }
 .header-button{
-    margin-left: -90px
+    display: inline-block;
+    margin-left: 20px;
 }
-.header-button a{
-    margin-top: 5px;
-}
+
 .header-icon{
     position: relative;
+    display: inline-block;
 }
-.header-icon span{
+.header-icon span {
     display: block;
     height: 20px;
     width: 20px;
@@ -35,9 +35,10 @@ body,p,h1,h2,h3,h4,h5,h6,span,div{
     font-size: 12px;
     line-height: 20px;
     position: absolute;
-    top: -16px;
+    top: -5px;
     text-align: center;
     left: 10px;
+    color: #fff;
 }
 .header-icon i{
     font-size: 20px;
@@ -425,6 +426,11 @@ text-decoration: underline;
     transition: .8s ease-in-out;
     opacity: .4;
 }
+.card-img-8 a:hover{
+    background: #fff;
+    color: #000;
+    border: none;
+}
 .card-img-8:hover h4{
     transform: translateY(-20px);
 }
@@ -447,7 +453,7 @@ text-decoration: underline;
 .fotter-section-2{
     text-align: center;
     padding: 10px 0;
-    background: #000;
+    background: #5a4e8c;
 }
 .fotter-section-2 p{
     color: #fff;
