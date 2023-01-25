@@ -17,6 +17,11 @@ body,p,h1,h2,h3,h4,h5,h6,span,div{
 .header-menu{
     
 }
+.header-button-custom{
+    background: #594d8b !important;
+    border: 1px solid #594d8b;
+}
+
 .header-button{
     display: inline-block;
     margin-left: 20px;
